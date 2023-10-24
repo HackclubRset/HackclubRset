@@ -528,10 +528,10 @@ p {
 
 
 .ud-hero {
-  background-image:url('../images/banner/abc.png');
+  background-image:url('../images/banner/abc3.jpg');
   /* background-color: inherit; */
   /* position: inherit; */
-
+  
 
   margin-top: 75px;
 
@@ -540,6 +540,10 @@ p {
 
 
 }
+
+
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ud-hero {

@@ -13,6 +13,8 @@
       ud_header.classList.remove("sticky");
     }
 
+
+
     // === logo change
     if (ud_header.classList.contains("sticky")) {
       logo.src = "assets/images/logo/logo-2.svg";
