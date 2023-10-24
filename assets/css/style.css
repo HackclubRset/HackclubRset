@@ -63,6 +63,27 @@ body{
   border-radius: 0 25px 0 0;
   background-color: #FFF;
 }
+
+/* Define the blinking animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the button with the "blink" class */
+.blink {
+  animation: blink 0.9s infinite; /* Adjust the duration as needed */
+  pointer-events: none;
+}
+
+
 .card-image{
   position: relative;
   height: 300px;
