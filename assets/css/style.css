@@ -83,6 +83,11 @@ body{
   pointer-events: none;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-around; /* Add space between buttons */
+  margin-top: 2em; /* Adjust as needed */
+}
 
 .card-image{
   position: relative;
