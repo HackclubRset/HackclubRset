@@ -83,10 +83,17 @@ body{
   pointer-events: none;
 }
 
-.button-container {
-  display: flex;
-  justify-content: space-around; /* Add space between buttons */
-  margin-top: 2em; /* Adjust as needed */
+@media (max-width: 768px) {
+  .button-container {
+      display: flex;
+      flex-direction: column; /* Stack buttons vertically on smaller screens */
+      align-items: center; /* Center-align buttons on smaller screens */
+      margin-top: 24px; /* Adjust as needed */
+  }
+
+  .ud-main-btn {
+      width: 100px; /* Adjust the width as needed for smaller screens */
+  }
 }
 
 .card-image{
