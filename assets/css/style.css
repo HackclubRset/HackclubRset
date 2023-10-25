@@ -86,13 +86,17 @@ body{
 @media (max-width: 768px) {
   .button-container {
       display: flex;
-      flex-direction: column; /* Stack buttons vertically on smaller screens */
+      flex-direction: column;
+      justify-content: space-between; /* Stack buttons vertically on smaller screens */
       align-items: center; /* Center-align buttons on smaller screens */
-      margin-top: 24px; /* Adjust as needed */
+      margin-top: 20px;
+      margin-left: 0%;
+      margin-right: 0%; /* Adjust as needed */
   }
 
   .ud-main-btn {
-      width: 100px; /* Adjust the width as needed for smaller screens */
+      width: 10px; /* Adjust the width as needed */
+    margin-right: 100px; /* Adjust the width as needed for smaller screens */
   }
 }
 
