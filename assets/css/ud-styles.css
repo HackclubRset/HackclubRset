@@ -917,6 +917,12 @@ p {
   background: #2748b4;
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          
+}
+
+.ud-main-btn:active {
+  background-color: inherit; /* Use the default background color */
+  color: inherit; /* Use the default text color */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {

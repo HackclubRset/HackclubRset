@@ -1,5 +1,18 @@
 (function () {
   "use strict";
+  var showPdfButton2 = document.querySelector(".showPdfButton2");
+
+showPdfButton2.addEventListener("click", function() {
+    // Specify the URL of the second PDF file or a different PDF
+    
+    var pdfUrl2 = "sample2.pdf"; // Change the PDF filename or path as needed
+
+    // Open the PDF in a new window or tab
+    window.open(pdfUrl2, "_blank");
+    this.style.backgroundColor = 'inherit';
+    this.style.color = 'inherit';
+});
+
 
   // ======= Sticky
   window.onscroll = function () {
